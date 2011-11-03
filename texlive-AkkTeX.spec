@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/akktex
+# catalog-date 2008-05-16 01:27:14 +0200
+# catalog-license lppl
+# catalog-version 0.3.2
 Name:		texlive-AkkTeX
 Version:	0.3.2
 Release:	1
@@ -66,6 +72,7 @@ language tools and predefined abbreviations.
 %{_texmfdistdir}/tex/latex/AkkTeX/akktex.sty
 %{_texmfdistdir}/tex/latex/AkkTeX/akkwidepage.sty
 %doc %{_texmfdistdir}/doc/latex/AkkTeX/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -76,3 +83,5 @@ language tools and predefined abbreviations.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
