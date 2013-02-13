@@ -6,7 +6,7 @@
 # catalog-version 0.3.2
 Name:		texlive-AkkTeX
 Version:	0.3.2
-Release:	3
+Release:	4
 Summary:	A collection of packages and classes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/akktex
@@ -14,6 +14,7 @@ License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/AkkTeX.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/AkkTeX.doc.tar.xz
 BuildArch:	noarch
+Provides:	texlive-akktex
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
