@@ -6,7 +6,7 @@
 # catalog-version 0.3.2
 Name:		texlive-AkkTeX
 Version:	0.3.2
-Release:	7
+Release:	8
 Summary:	A collection of packages and classes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/akktex
