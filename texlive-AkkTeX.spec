@@ -5,8 +5,8 @@ Summary:	A collection of packages and classes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/akktex
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/akktex.r26055.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/akktex.doc.r26055.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/akktex.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/akktex.doc.r%{version}.tar.xz
 BuildArch:	noarch
 Provides:	texlive-akktex
 BuildRequires:	texlive-tlpkg
