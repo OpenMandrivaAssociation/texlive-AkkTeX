@@ -1,6 +1,6 @@
 Name:		texlive-AkkTeX
 Version:	26055
-Release:	1
+Release:	2
 Summary:	A collection of packages and classes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/akktex
