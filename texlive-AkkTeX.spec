@@ -3,7 +3,7 @@ Version:	26055
 Release:	2
 Summary:	A collection of packages and classes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/akktex
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/akktex
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/akktex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/akktex.doc.r%{version}.tar.xz
